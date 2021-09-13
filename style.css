@@ -1,13 +1,24 @@
 body {
-  background-color: lightblue;
+  background: linear-gradient(
+    90deg,
+    rgb(3, 44, 156) 0%,
+    rgb(6, 210, 236) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
   font-family: "Abel", sans-serif;
 }
 
 .calculator {
+  background-image: url("Background.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(158, 214, 247);
+  border-radius: 10%;
   display: flex;
   flex-direction: column;
-  padding: 5% 7%;
-  margin: 10%;
+  padding: 5% 5%;
+  margin: 5% 30%;
 }
 
 .calculatorTitle {
